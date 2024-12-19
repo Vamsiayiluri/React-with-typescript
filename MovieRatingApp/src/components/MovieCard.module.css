@@ -1,0 +1,17 @@
+.movieCard {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+.imageStyle {
+    width: 100px;
+    height: 150px;
+  }
+  
+.ratingInput{ 
+    width: 50px
+}
+  

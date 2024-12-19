@@ -1,0 +1,28 @@
+.homePage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .homePageHeading {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .homePageText {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .homePageButton {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+ 
+  
