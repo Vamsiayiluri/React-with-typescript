@@ -13,7 +13,7 @@ const initialState: UserState = {
   error: "",
 };
 
-export const fetchUsers = createAsyncThunk<any, void, { rejectValue: string }>(
+export const fetchUsers = createAsyncThunk(
   "user/fetchUsers",
   async (_, { rejectWithValue }) => {
     try {

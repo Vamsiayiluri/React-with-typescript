@@ -16,6 +16,7 @@ export const UserView = () => {
     <div>
       {loading && <p>Loading...</p>}
       {error && <p>Error: {error}</p>}
+      <h3>Users :</h3>
       <ul>
         {users.map((user: any) => (
           <li key={user.id}>{user.name}</li>

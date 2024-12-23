@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./HomePage.module.css";
+import React from "react";
 
 const HomePage = () => {
   const isLoggedIn = localStorage.getItem("isLoggedIn") === "true";

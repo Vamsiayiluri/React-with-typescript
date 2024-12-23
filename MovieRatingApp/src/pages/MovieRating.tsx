@@ -5,6 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchMovies } from "../store/movieSlice";
 import { RootState, AppDispatch } from "../store/store";
 import styles from "./MovieRating.module.css";
+import React from "react";
 
 const MovieRating = () => {
   const dispatch: AppDispatch = useDispatch();
@@ -26,12 +27,12 @@ const MovieRating = () => {
 
   const handleSearchQueryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
+    localStorage.setItem("searchQuery", e.target.value);
   };
 
   const handleSearch = () => {
     if (searchQuery) {
       dispatch(fetchMovies(searchQuery));
-      localStorage.setItem("searchQuery", searchQuery);
     }
   };
 
