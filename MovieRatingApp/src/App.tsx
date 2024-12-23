@@ -5,6 +5,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import Login from "./components/Login";
 import { Provider } from "react-redux";
 import { store } from "./store/store";
+import React from "react";
 const MovieRating = lazy(() => import("./pages/MovieRating"));
 
 function App() {
