@@ -92,6 +92,9 @@ function App() {
         <LocalStorage></LocalStorage>
         <TodoExample></TodoExample>
         <SessionStorageSample></SessionStorageSample>
+      </>
+      {/* Redux store */}
+      <>
         <CakeView></CakeView>
         <IceCreamView></IceCreamView>
         <UserView></UserView>
